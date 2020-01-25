@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <header class="field">
+        <div class="search">
+            <input type="text" placeholder="Введите город" id="search-txt">
+            <a id="loupe" href="#"><i class="fas fa-search"></i></a>  <!--added icon-->
+        </div>
+    </header>
+    <main id="main">
+        <div class="city-icon">
+            <div class="city-icon-holder">
+                <div id="one-col"></div>
+                <img src="" alt="" id="icon">
+            </div>
+        </div>
+        <div class="temperature">
+            <div id="two-col"></div>
+        </div>
+        <div class="humidity">
+            <div id="three-col"></div>
+        </div>
+    </main>
+</div>
+
+<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+<script  src="app.js"></script>
+
+<style>
+		body {
+		background: url(images/3.jpg);
+        }
+</style>
+
+
+</body>
+
+</html>
